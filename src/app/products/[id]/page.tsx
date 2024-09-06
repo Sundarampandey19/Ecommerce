@@ -21,7 +21,7 @@ const getProduct = cache(async (id: string) => {
   return product;
 });
 
-export async function generateMedata({
+export async function generateMetadata({
   params: { id },
 }: ProductPageProps): Promise<Metadata> {
   const product = await getProduct(id);
