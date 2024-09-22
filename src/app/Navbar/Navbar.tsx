@@ -32,7 +32,7 @@ export default async function Navbar() {
           </Link>
         </div>
         <div className="flex-none gap-2">
-          <form action={searchProduct}>
+          {/* <form action={searchProduct}>
             <div className="form-control">
               <input
                 type="text"
@@ -41,7 +41,7 @@ export default async function Navbar() {
                 className="input input-bordered w-full min-w-[100px]"
               />
             </div>
-          </form>
+          </form> */}
           <ShoppingCartButton cart={cart} />
           <UserMenuButton session={session} />
         </div>
